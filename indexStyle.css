@@ -1,0 +1,42 @@
+img{
+    border-radius: 8px;
+}
+
+img:hover{
+
+    /*
+    translateY(-10%): This is a transformation that moves the element vertically by a percentage of its own height. In this case, the element will be moved up by 10% of its own height. A negative value (-10%) is used to move the element upwards.
+
+    transition: transform 250ms;: This line specifies a transition effect for the transform property with a duration of 250 milliseconds (ms). The transition property is used to create smooth animations between different property values. In this case, it means that whenever the transform property changes, it will take 250ms to transition smoothly from the old value to the new value. 
+    */
+    transform: translateY(-5%);
+    transition: transform 600ms;
+}
+
+#Mainhr{
+    width: 150px;
+    height: 8px;
+    border-radius: 50px;
+    background-color:firebrick;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+.card{
+    padding-top: 24px;
+    border-color: blue;
+   
+}
+
+#SearchBtn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.SearchLink{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.indexBody{
+    margin-right: 20px;
+}
