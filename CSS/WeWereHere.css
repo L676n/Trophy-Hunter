@@ -1,0 +1,96 @@
+#btn1, #btn2, #btn3, #btn4, #btn5{
+    background-color: gray;
+    font-size: 20px;
+    
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover{
+    background-color: cadetblue;
+}
+
+.indexBody{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#Mainhr{
+    width: 150px;
+    height: 8px;
+    border-radius: 50px;
+    background-color:firebrick;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+
+.card{
+    padding-top: 24px;
+    border-color: blue;
+   
+}
+
+svg{
+    margin-top: -20px;
+}
+
+#SearchBtn{
+    background-color:#d0d0d0;
+}
+
+/*We were here button seasons*/
+#S1{
+    display: block;
+}
+
+#S2, #S3, #S4, #S5{
+    display: none;
+}
+
+#S1H{
+    display: block;
+}
+
+#S2H, #S3H, #S4H, #S5H{
+    display: none;
+}
+
+#S1T{
+    display: block;
+}
+
+#S2T, #S3T, #S4T, #S5T{
+    display: none;
+}
+
+#S1R{
+    display: block;
+}
+
+#S2R, #S3R, #S4R, #S5R{
+    display: none;
+}
+
+#S1V{
+    display: block;
+}
+
+#S2V, #S3V, #S4V, #S5V{
+    display: none;
+}
+
+#S1DEC{
+    display: block;
+}
+
+#S2DEC, #S3DEC, #S4DEC, #S5DEC{
+    display: none;
+}
+
+#S1DECcontinue{
+    display: block;
+}
+
+#S2DECcontinue, #S3DECcontinue, #S4DECcontinue, #S5DECcontinue{
+    display: none;
+}
+
+
