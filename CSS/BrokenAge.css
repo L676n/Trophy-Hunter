@@ -3,11 +3,6 @@
     margin-left: 20px;
 }
 
-
-.hoursImg{
-    padding-top: 20px;
-}
-
 #Mainhr{
     width: 150px;
     height: 8px;
@@ -26,5 +21,30 @@
 svg{
     margin-top: -20px;
 }
+
+#SearchBtn{
+    background-color:#d0d0d0;
+}
+
+#TrophiesRow{
+    background-color: #d0d0d0;
+    border-radius: 8px;
+}
+
+b{
+    font-size: 20px;
+    margin-right: -5px;
+}
+
+#FirstTrophyimg{
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
 
 
