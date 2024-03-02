@@ -1,8 +1,8 @@
-img{
+.card-img-top{
     border-radius: 8px;
 }
 
-img:hover{
+.card-img-top:hover{
 
     /*
     translateY(-10%): This is a transformation that moves the element vertically by a percentage of its own height. In this case, the element will be moved up by 10% of its own height. A negative value (-10%) is used to move the element upwards.
@@ -39,5 +39,10 @@ img:hover{
 
 #SearchBtn{
     background-color:#d0d0d0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+    user-select: none;
 }
 
