@@ -1,0 +1,74 @@
+body{
+    background-image: url(../images/background.jpg);
+}
+
+.row{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    padding: 100px 80px 100px 80px;
+}
+
+
+.forgetPasswordLink, .signUpLink{
+    border: none;
+    text-decoration: none;
+}
+
+.forgetPasswordLink:hover, .signUpLink:hover{
+    color: black;
+}
+
+label, input{
+    display: block;
+}
+
+input{
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom:1.5px solid gray;
+}
+
+input:hover{
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom:1.5px solid black;
+}
+
+button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 20px !important;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Noto Sans Arabic", sans-serif !important;
+    border: none;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+/*These tow classes were added to make the email and password icon visiable from font awesome afyer adding the link un html head and the unicode inside th placeholder */
+
+.fontAwesomeEmail {
+    font-family: Helvetica, 'FontAwesome';
+  }
+
+.fontAwesomePassword {
+font-family: Helvetica, 'FontAwesome';
+margin-right: 6px;
+}
+
+
+
+
+
+
+
