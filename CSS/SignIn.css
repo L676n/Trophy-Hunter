@@ -53,7 +53,7 @@ button:hover{
     opacity: .8;
 }
 
-/*These tow classes were added to make the email and password icon visiable from font awesome afyer adding the link un html head and the unicode inside th placeholder */
+/*These two classes were added to make the email and password icon visiable from font awesome afyer adding the link un html head and the unicode inside th placeholder */
 
 .fontAwesomeEmail {
     font-family: Helvetica, 'FontAwesome';
