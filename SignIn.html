@@ -24,8 +24,8 @@
     
     <section dir="rtl">
 <!--Showing it only with small screens-->
-        <div class="row d-block d-sm-none " style="padding: 70px 35px 70px 35px; left: 53%;">
-            <div class="col d-block d-sm-none  text-center">
+        <div class="row d-block d-sm-none " style="padding: 90px 50px 90px 50px; left: 53%;">
+            <div class="col d-block d-sm-none text-center">
                 <h2 class="mb-5 ">تسجيل الدخول</h2>
                 <form action="#" method="post" id="SignInForm">
                     <lable for="email" style="margin-right: -130px;"> الايميل </lable>
@@ -48,10 +48,32 @@
             </div>
         </div>
 
-        
+        <div class="row d-none d-sm-block d-md-none" style="padding: 100px 80px 100px 80px; left: 53%">
+            <div class="col d-none d-sm-block d-md-none text-center">
+                <h2 class="mb-5 ">تسجيل الدخول</h2>
+                <form action="#" method="post" id="SignInForm">
+                    <lable for="email" style="margin-right: -130px;"> الايميل </lable>
+                    <input type="email" class="fontAwesomeEmail" id="email" name="email" placeholder=" &#xf0e0;  ادخل الايميل">
+                    <br>
+                    
+                    <label for="password" style="margin-right: -112px;">كلمة السر</label>
+                    <input class="fontAwesomePassword mb-2" type="password" id="password" name="password" placeholder="&#xf023;  ادخل كلمة السر">
+
+                    <a class="forgetPasswordLink" href="index.html">هل نسيت كلمة المرور؟</a>
+                    <br>
+                    <br>
+
+                    <a class="signUpLink" href="index.html">إنشاء حساب جديد</a>
+                    <br>
+
+                    <button class="mt-4" type="submit" id="submitButton" form="SignInForm" value="Submit">تسجيل الدخول</button>
+
+                </form>
+            </div>
+        </div>
 
 <!--Showing it with mid and above screens-->
-        <div class="row d-none d-sm-block " style="padding: 140px 120px 140px 120px; left: 50%;">
+        <div class="row d-none d-md-block" style="padding: 140px 120px 140px 120px; left: 50%;">
             <div class="col d-none d-sm-block text-center">
                 <h2 class="mb-5 ">تسجيل الدخول</h2>
                 <form action="#" method="post" id="SignInForm">
