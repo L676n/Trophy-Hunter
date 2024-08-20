@@ -1,0 +1,61 @@
+.indexBody{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#Mainhr{
+    width: 150px;
+    height: 8px;
+    border-radius: 50px;
+    background-color:firebrick;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+
+.card{
+    padding-top: 24px;
+    border-color: blue;
+   
+}
+
+svg{
+    margin-top: -20px;
+}
+
+#SearchBtn{
+    background-color:#d0d0d0;
+}
+
+#TrophiesRow{
+    background-color: #d0d0d0;
+    border-radius: 8px;
+    
+}
+
+b{
+    font-size: 20px;
+    margin-right: -5px;
+}
+
+#FirstTrophyimg{
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+.col-1{
+    margin-left: 4px;
+}
+
+.TrophyBG{
+    background-color:#d0d0d0;
+    padding: 7px 10px 7px 10px;
+}
+
+
+
+
+
+
+
+
+
