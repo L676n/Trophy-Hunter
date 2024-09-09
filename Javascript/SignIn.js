@@ -1,4 +1,21 @@
+ // Import the functions you need from the SDKs you need
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 
+ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js";
+ 
+ import { getDatabase, ref, get, child} from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+ // TODO: Add SDKs for Firebase products that you want to use
+ // https://firebase.google.com/docs/web/setup#available-libraries
+
+ // Your web app's Firebase configuration
+ const firebaseConfig = {
+  apiKey: "AIzaSyAntSzAjX0ib7_gDU0ZDsj8DgL8Uir6lmc",
+  authDomain: "trophy-hunter-b8c80.firebaseapp.com",
+  projectId: "trophy-hunter-b8c80",
+  storageBucket: "trophy-hunter-b8c80.appspot.com",
+  messagingSenderId: "812940690454",
+  appId: "1:812940690454:web:81309bdb381d6dced1a137"
+};
 
   // Initialize Firebase
  const app = initializeApp(firebaseConfig);
