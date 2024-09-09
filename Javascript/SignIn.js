@@ -32,7 +32,7 @@ submit1.addEventListener("click", function(event){
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
-    window.location.href ="index.html";
+    window.location.href ="HomePage.html";
   })
   .catch((error) => {
     const errorCode = error.code;
