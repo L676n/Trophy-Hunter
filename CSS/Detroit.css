@@ -1,3 +1,12 @@
+body{
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*used to hide Hide horizontal scrollbar*/
+    overflow-x: hidden;
+}
+
 .indexBody{
     margin-right: 20px;
     margin-left: 20px;
@@ -7,19 +16,22 @@
     width: 150px;
     height: 8px;
     border-radius: 50px;
-    background-color:firebrick;
+    background-color:rgb(239, 131, 24);
     opacity: 1;
     margin-bottom: 25px;
 }
 
 .card{
     padding-top: 24px;
-    border-color: blue;
+    border-color:rgb(239, 131, 24);
+    border-width: 2px;
+    background-color: #293D7C;
    
 }
 
 svg{
     margin-top: -20px;
+    margin-right: 6px;
 }
 
 #SearchBtn{
@@ -37,19 +49,45 @@ b{
     margin-right: -5px;
 }
 
-#FirstTrophyimg{
-    margin-top: -20px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-}
 
 .col-1{
     margin-left: 4px;
 }
 
 .TrophyBG{
-    background-color:#d0d0d0;
+    background-color:#0c0325;
     padding: 7px 10px 7px 10px;
+    border-radius: 8px;
+}
+
+.col-1, #TrophiesRow{
+    background-color: #0c0325;
+}
+
+h1, h3, b, p, h5, li{
+    color: white;
+}
+
+
+.card-text, .card-title{
+    margin-right: 20px;
+    color: white;
+}
+
+/*the scrollbar edit*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(239, 131, 24);
+    border-radius: 40px;
+}
+
+  
+  ::-webkit-scrollbar-track{
+    background-color: #020F59;
 }
 
 
