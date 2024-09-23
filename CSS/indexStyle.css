@@ -3,7 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: overlay;
+    /*used to hide Hide horizontal scrollbar*/
+    overflow-x: hidden;
 }
 
 .card-img-top{
